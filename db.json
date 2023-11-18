@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Soup Cá Hồi",
+      "price": "1234",
+      "image": "http://127.0.0.1:5500/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg",
+      "description": "Description new acv",
+      "categoryId": "2"
+    },
+    {
+      "id": 2,
+      "name": "Bò Áp Chảo",
+      "price": 200,
+      "image": "http://127.0.0.1:5500/images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg",
+      "description": "Description 2",
+      "categoryId": 2
+    },
+    {
+      "name": "Product Hot Nhất",
+      "price": "3000",
+      "image": "http://127.0.0.1:5500/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg",
+      "description": "Good",
+      "categoryId": "2",
+      "id": 3
+    },
+    {
+      "name": "Product new 2023",
+      "price": "123123",
+      "image": "http://127.0.0.1:5500/images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg",
+      "description": "Good",
+      "categoryId": "1",
+      "id": 4
+    },
+    {
+      "name": "Bán Mỳ Nướng",
+      "price": "200",
+      "image": "http://127.0.0.1:5500/images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg",
+      "description": "Good",
+      "categoryId": "1",
+      "id": 5
+    },
+    {
+      "name": "Soup Healthy",
+      "price": "400",
+      "image": "http://127.0.0.1:5500/images/lunch/farhad-ibrahimzade-D5c9ZciQy_I-unsplash.jpg",
+      "description": "Delecious",
+      "categoryId": "1",
+      "id": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Danh muc 1"
+    },
+    {
+      "id": 2,
+      "name": "Danh muc 2"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "123456",
+      "roleId": 1
+    },
+    {
+      "id": 2,
+      "name": "user",
+      "password": "123456",
+      "roleId": 2
+    },
+    {
+      "name": "Leo Huy123",
+      "password": "asfcasc",
+      "roleId": "2",
+      "id": 4
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "admin"
+    },
+    {
+      "id": 2,
+      "name": "user"
+    }
+  ]
+}
